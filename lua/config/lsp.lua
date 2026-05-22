@@ -4,7 +4,7 @@ require("lazydev").setup({
 	},
 })
 
-vim.lsp.enable({ "lua_ls", "gopls", "vtsls", "intelephense", "bashls", "yamlls" })
+vim.lsp.enable({ "lua_ls", "gopls", "vtsls", "intelephense", "bashls", "yamlls", "astrols" })
 
 map("n", "K", vim.lsp.buf.hover, "lsp: hover doku")
 map("n", "gd", vim.lsp.buf.definition, "lsp: go to definition")
