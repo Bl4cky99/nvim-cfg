@@ -15,7 +15,6 @@ wk.add({
 	{ "<leader>g", group = "Git" },
 	{ "<leader>h", group = "Git Hunks" },
 	{ "<leader>t", group = "Toggle" },
-	{ "<leader>r", group = "Refactor" },
+	{ "<leader>r", group = "Refactor/Remote" },
 	{ "<leader>e", desc = "Diagnostic Float" },
 })
-
