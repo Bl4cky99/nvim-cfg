@@ -9,13 +9,12 @@ wk.setup({
 })
 
 wk.add({
-  { "<leader>b", group = "Buffer" },
+	{ "<leader>b", group = "Buffer" },
 	{ "<leader>c", group = "Code" },
 	{ "<leader>d", group = "Diagnostic" },
 	{ "<leader>f", group = "Find (fzf)" },
 	{ "<leader>g", group = "Git" },
 	{ "<leader>h", group = "Git Hunks" },
-	{ "<leader>t", group = "Toggle" },
 	{ "<leader>r", group = "Refactor/Remote" },
 	{ "<leader>e", desc = "Diagnostic Float" },
 })

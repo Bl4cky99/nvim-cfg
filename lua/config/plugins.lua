@@ -30,6 +30,7 @@ vim.pack.add({
 	{ src = "https://github.com/nvim-neo-tree/neo-tree.nvim", version = vim.version.range("^3") },
 	{ src = "https://github.com/MunifTanjim/nui.nvim" },
 	{ src = "https://github.com/nvim-tree/nvim-web-devicons" },
+  { src = "https://github.com/akinsho/toggleterm.nvim" },
 })
 
 require("config.lsp")
@@ -45,3 +46,5 @@ require("config.statusline")
 require("config.whichkey")
 require("config.remote")
 require("config.buffer")
+require("config.terminal")
+

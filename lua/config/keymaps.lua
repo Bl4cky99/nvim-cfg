@@ -7,14 +7,4 @@ map("n", "<C-Down>", "<cmd>resize -2<cr>", "Split niedriger")
 map("n", "<C-Left>", "<cmd>vertical resize -2<cr>", "Split schmaler")
 map("n", "<C-Right>", "<cmd>vertical resize +2<cr>", "Split breiter")
 
-map("t", "<Esc>", [[<C-\><C-n>]], "Terminal: Normal-Mode")
-map("t", "<C-h>", [[<C-\><C-n><C-w>h]])
-map("t", "<C-j>", [[<C-\><C-n><C-w>j]])
-map("t", "<C-k>", [[<C-\><C-n><C-w>k]])
-map("t", "<C-l>", [[<C-\><C-n><C-w>l]])
-map("n", "<leader>th", "<cmd>split | term<cr>", "Terminal horizontal")
-map("n", "<leader>tv", "<cmd>vsplit | term<cr>", "Terminal vertikal")
-map("n", "<leader>tt", "<cmd>tabnew | term<cr>", "Terminal in Tab")
-
 map("n", "<Esc>", "<cmd>nohlsearch<cr>", "remove search highlighting")
-
