@@ -1,32 +1,39 @@
-require("nvim-treesitter").setup({
+local treesitter = require("nvim-treesitter")
+
+treesitter.setup({
 	install_dir = vim.fn.stdpath("data") .. "/site",
 })
 
-require("nvim-treesitter").install({
-	"lua",
-	"vim",
-	"vimdoc",
-	"query",
-	"go",
-	"gomod",
-	"gosum",
-	"javascript",
-	"typescript",
-	"tsx",
-	"jsdoc",
-	"php",
-	"phpdoc",
-	"html",
-	"css",
-	"json",
-	"yaml",
-	"toml",
-	"markdown",
-	"markdown_inline",
-	"bash",
-	"regex",
-	"gitignore",
-	"gitcommit",
+autocmd("VimEnter", {
+	once = true,
+	callback = function()
+		treesitter.install({
+			"lua",
+			"vim",
+			"vimdoc",
+			"query",
+			"go",
+			"gomod",
+			"gosum",
+			"javascript",
+			"typescript",
+			"tsx",
+			"jsdoc",
+			"php",
+			"phpdoc",
+			"html",
+			"css",
+			"json",
+			"yaml",
+			"toml",
+			"markdown",
+			"markdown_inline",
+			"bash",
+			"regex",
+			"gitignore",
+			"gitcommit",
+		})
+	end,
 })
 
 autocmd("FileType", {
@@ -41,4 +48,3 @@ autocmd("FileType", {
 		vim.bo[args.buf].indentexpr = "v:lua.require'nvim-treesitter'.indentexpr()"
 	end,
 })
-
