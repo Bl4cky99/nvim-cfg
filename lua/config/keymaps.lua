@@ -18,8 +18,3 @@ map("n", "<leader>tt", "<cmd>tabnew | term<cr>", "Terminal in Tab")
 
 map("n", "<Esc>", "<cmd>nohlsearch<cr>", "remove search highlighting")
 
-map("n", "<S-h>",       "<cmd>bprevious<cr>",        "buffer: prev")
-map("n", "<S-l>",       "<cmd>bnext<cr>",            "buffer: next")
-map("n", "<leader>bd",  "<cmd>bdelete<cr>",          "buffer: delete")
-map("n", "<leader>bD",  "<cmd>bdelete!<cr>",         "buffer: delete (force)")
-map("n", "<leader>bo",  "<cmd>%bd|e#|bd#<cr>",       "buffer: only this one")
