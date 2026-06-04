@@ -12,9 +12,9 @@ vim.filetype.add({
 })
 
 vim.filetype.add({
-  extension = {
-    astro = "astro",
-  },
+	extension = {
+		astro = "astro",
+	},
 })
 
 autocmd("LspAttach", {
@@ -67,7 +67,7 @@ autocmd("TermOpen", {
 	end,
 })
 
-autocmd({ "InsertLeave", "TextChanged", "FocusLost", "BufLeave" }, {
+autocmd({ "InsertLeave", "FocusLost" }, {
 	callback = function(event)
 		local buf = event.buf
 
