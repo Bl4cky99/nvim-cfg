@@ -19,7 +19,6 @@ fzf.setup({
 
 map("n", "<leader>ff", fzf.files, "find files")
 map("n", "<leader>fg", fzf.live_grep, "live grep (content)")
-map("n", "<leader>fb", fzf.buffers, "find buffers")
 map("n", "<leader>fh", fzf.help_tags, "search help-tags")
 map("n", "<leader>fr", fzf.resume, "continue last picker")
 
