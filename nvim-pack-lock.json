@@ -83,6 +83,10 @@
       "rev": "7a12a1677bbe96ca98f0c713448ac1f518ba09b7",
       "src": "https://github.com/nosduco/remote-sshfs.nvim"
     },
+    "render-markdown.nvim": {
+      "rev": "5adf0895310c1904e5abfaad40a2baad7fe44a07",
+      "src": "https://github.com/MeanderingProgrammer/render-markdown.nvim"
+    },
     "toggleterm.nvim": {
       "rev": "9a88eae817ef395952e08650b3283726786fb5fb",
       "src": "https://github.com/akinsho/toggleterm.nvim"

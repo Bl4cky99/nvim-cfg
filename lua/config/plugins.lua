@@ -30,9 +30,10 @@ vim.pack.add({
 	{ src = "https://github.com/nvim-neo-tree/neo-tree.nvim", version = vim.version.range("^3") },
 	{ src = "https://github.com/MunifTanjim/nui.nvim" },
 	{ src = "https://github.com/nvim-tree/nvim-web-devicons" },
-  { src = "https://github.com/akinsho/toggleterm.nvim" },
-  { src = "https://github.com/echasnovski/mini.starter" },
-  { src = "https://github.com/echasnovski/mini.sessions" },
+	{ src = "https://github.com/akinsho/toggleterm.nvim" },
+	{ src = "https://github.com/echasnovski/mini.starter" },
+	{ src = "https://github.com/echasnovski/mini.sessions" },
+	{ src = "https://github.com/MeanderingProgrammer/render-markdown.nvim" },
 })
 
 require("config.lsp")
@@ -50,4 +51,4 @@ require("config.remote")
 require("config.buffer")
 require("config.terminal")
 require("config.dashboard")
-
+require("config.markdown")

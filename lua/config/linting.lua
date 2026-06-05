@@ -7,6 +7,7 @@ lint.linters_by_ft = {
 	typescriptreact = { "eslint_d" },
 	go = { "golangcilint" },
 	php = { "phpstan" },
+	markdown = { "markdownlint-cli2" },
 }
 
 autocmd({ "BufWritePost", "BufReadPost", "InsertLeave" }, {
