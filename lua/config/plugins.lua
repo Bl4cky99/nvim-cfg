@@ -31,6 +31,8 @@ vim.pack.add({
 	{ src = "https://github.com/MunifTanjim/nui.nvim" },
 	{ src = "https://github.com/nvim-tree/nvim-web-devicons" },
   { src = "https://github.com/akinsho/toggleterm.nvim" },
+  { src = "https://github.com/echasnovski/mini.starter" },
+  { src = "https://github.com/echasnovski/mini.sessions" },
 })
 
 require("config.lsp")
@@ -47,4 +49,5 @@ require("config.whichkey")
 require("config.remote")
 require("config.buffer")
 require("config.terminal")
+require("config.dashboard")
 

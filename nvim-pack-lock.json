@@ -33,6 +33,14 @@
       "rev": "fc87ba6554f182161d9a4bab5017c575571f000f",
       "src": "https://github.com/echasnovski/mini.comment"
     },
+    "mini.sessions": {
+      "rev": "e59286b20fbf61171039ddfebc736cf9562e75d5",
+      "src": "https://github.com/echasnovski/mini.sessions"
+    },
+    "mini.starter": {
+      "rev": "a7d8b353cf120fee32bb5d88e7a9de5eaec746e7",
+      "src": "https://github.com/echasnovski/mini.starter"
+    },
     "mini.surround": {
       "rev": "990ce30f724d08e79670107de6b915a3f1bb9a9b",
       "src": "https://github.com/echasnovski/mini.surround"
